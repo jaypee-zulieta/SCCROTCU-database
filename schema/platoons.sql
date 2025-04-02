@@ -1,4 +1,4 @@
--- Run companies.sql before running this script
+-- Run companies.sql before running this script.
 CREATE TABLE IF NOT EXISTS platoons (
   id INT AUTO_INCREMENT PRIMARY KEY,
   company_id INT,
