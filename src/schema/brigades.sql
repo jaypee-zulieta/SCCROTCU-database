@@ -4,3 +4,5 @@ CREATE TABLE IF NOT EXISTS brigades (
   descriptive_name VARCHAR(255) NOT NULL,
   created_on DATE
 );
+
+ALTER TABLE brigades AUTO_INCREMENT = 1000;
