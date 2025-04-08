@@ -8,3 +8,5 @@ CREATE TABLE IF NOT EXISTS specialization_designations (
   FOREIGN KEY(id) REFERENCES platoons(id),
   FOREIGN KEY(specialization_id) REFERENCES platoon_specializations(id)
 );
+
+ALTER TABLE specialization_designations AUTO_INCREMENT = 1000;

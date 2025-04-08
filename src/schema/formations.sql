@@ -8,3 +8,5 @@ CREATE TABLE IF NOT EXISTS formations (
   ended_on TIME,
   FOREIGN KEY (semester_id) REFERENCES semesters(id)
 );
+
+ALTER TABLE formations AUTO_INCREMENT = 1000;

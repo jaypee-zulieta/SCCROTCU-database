@@ -34,3 +34,6 @@ CREATE TABLE offered_courses (
 ALTER TABLE enrolled_cadets ADD COLUMN offered_course_id INT NOT NULL;
 ALTER TABLE enrolled_cadets ADD CONSTRAINT FOREIGN KEY(offered_course_id)
 REFERENCES offered_courses(id);
+
+-- @block
+ALTER TABLE enrolled_cadets AUTO_INCREMENT = 1000;

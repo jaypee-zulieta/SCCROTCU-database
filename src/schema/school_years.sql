@@ -4,3 +4,5 @@ CREATE TABLE IF NOT EXISTS school_years (
   started_on DATE,
   ended_on DATE
 );
+
+ALTER TABLE school_years AUTO_INCREMENT = 1000;

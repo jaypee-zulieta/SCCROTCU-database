@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS attendance_records (
   CONSTRAINT attendance_status_check
   CHECK (attendance_status IN ("Present", "Absent", "Excused"))
 );
+
+ALTER TABLE attendance_records AUTO_INCREMENT = 1000;

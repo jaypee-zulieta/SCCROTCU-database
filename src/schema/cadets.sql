@@ -9,3 +9,5 @@ CREATE TABLE IF NOT EXISTS cadets (
   CONSTRAINT sex_constraint
   CHECK (sex IN ("M", "F"))
 );
+
+ALTER TABLE cadets AUTO_INCREMENT = 1000;

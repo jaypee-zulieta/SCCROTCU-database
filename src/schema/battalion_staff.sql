@@ -22,3 +22,6 @@ id INT AUTO_INCREMENT PRIMARY KEY;
 -- @block
 ALTER TABLE battalion_staff ADD CONSTRAINT battalion_staff_designations_fk
 FOREIGN KEY(designation_id) REFERENCES battalion_staff_designations(id);
+
+-- @block
+ALTER TABLE battalion_staff AUTO_INCREMENT = 1000;

@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS brigade_staff (
   FOREIGN KEY(brigade_id) REFERENCES brigades(id),
   FOREIGN KEY(designation_id) REFERENCES brigade_staff_designations(id)
 );
+
+ALTER TABLE brigade_staff AUTO_INCREMENT = 1000;

@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS cadet_ranks (
   FOREIGN KEY(rank_id) REFERENCES ranks(id),
   FOREIGN KEY(class_id) REFERENCES classes(id)
 );
+
+ALTER TABLE cadet_ranks AUTO_INCREMENT = 1000;

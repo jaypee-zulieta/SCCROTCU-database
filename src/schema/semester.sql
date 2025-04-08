@@ -8,3 +8,5 @@ CREATE TABLE IF NOT EXISTS semesters (
   ended_on DATE,
   FOREIGN KEY (school_year_id) REFERENCES school_years(id)
 );
+
+ALTER TABLE semesters AUTO_INCREMENT = 1000;

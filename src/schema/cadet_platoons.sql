@@ -8,3 +8,5 @@ CREATE TABLE IF NOT EXISTS cadet_platoons (
   FOREIGN KEY(enrolled_cadet_id) REFERENCES enrolled_cadets(id),
   FOREIGN KEY(platoon_id) REFERENCES platoons(id)
 );
+
+ALTER TABLE cadet_platoons AUTO_INCREMENT = 1000;

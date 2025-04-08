@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS company_staff (
   FOREIGN KEY(company_id) REFERENCES companies(id),
   FOREIGN KEY(designation_id) REFERENCES company_staff_designations(id)
 );
+
+ALTER TABLE company_staff AUTO_INCREMENT = 1000;

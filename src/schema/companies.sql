@@ -7,3 +7,5 @@ CREATE TABLE IF NOT EXISTS companies (
   created_on DATE,
   FOREIGN KEY(battalion_id) REFERENCES battalions(id)
 );
+
+ALTER TABLE companies AUTO_INCREMENT = 1000;
