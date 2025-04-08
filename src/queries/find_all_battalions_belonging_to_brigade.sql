@@ -1,3 +1,6 @@
+-- Should be mapped to a route called
+-- Shows all the brigades in the unit
+-- /brigades/{brigade-id}/battalions
 SELECT
   id, 
   descriptive_name,
