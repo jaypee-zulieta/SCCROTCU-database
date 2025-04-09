@@ -4,7 +4,7 @@
 SELECT 
   b.id, 
   b.descriptive_name, 
-  b.brigade_id
+  b.brigade_id,
   b.created_on 
 FROM battalions as b
 ORDER BY b.created_on DESC
