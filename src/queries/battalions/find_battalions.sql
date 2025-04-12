@@ -8,4 +8,4 @@ SELECT
   b.created_on 
 FROM battalions as b
 ORDER BY b.created_on DESC
-LIMIT 15
+LIMIT 50;
