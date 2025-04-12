@@ -8,4 +8,3 @@ SELECT
 FROM battalions AS b
 WHERE b.brigade_id = 1000 -- id of the brigade
 AND b.id = 10000 -- id of the battalion
-LIMIT 50
